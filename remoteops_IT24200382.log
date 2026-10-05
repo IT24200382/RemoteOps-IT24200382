@@ -1,0 +1,76 @@
+[2026-10-05 10:17:26] === Agent starting on port 9420 ===
+[2026-10-05 10:17:44] Connection opened from 127.0.0.1:50166
+[2026-10-05 10:17:44] CMD from 127.0.0.1:50166 : AUTH OPS-0382
+[2026-10-05 10:17:44] AUTH success from 127.0.0.1:50166
+[2026-10-05 10:17:51] CMD from 127.0.0.1:50166 : SYSINFO
+[2026-10-05 10:17:51] SYSINFO sent
+[2026-10-05 10:23:49] CMD from 127.0.0.1:50166 : LISTPROC
+[2026-10-05 10:23:49] LISTPROC sent
+[2026-10-05 10:23:53] CMD from 127.0.0.1:50166 : EXEC DATE
+[2026-10-05 10:23:53] EXEC DATE -> sent result
+[2026-10-05 10:23:54] CMD from 127.0.0.1:50166 : EXEC UPTIME
+[2026-10-05 10:23:54] EXEC UPTIME -> sent result
+[2026-10-05 10:23:56] CMD from 127.0.0.1:50166 : EXEC DISKFREE
+[2026-10-05 10:23:56] EXEC DISKFREE -> sent result
+[2026-10-05 10:23:57] CMD from 127.0.0.1:50166 : EXEC HOSTNAME
+[2026-10-05 10:23:57] EXEC HOSTNAME -> sent result
+[2026-10-05 10:24:02] CMD from 127.0.0.1:50166 : EXEC WHOAMI
+[2026-10-05 10:24:02] EXEC WHOAMI -> sent result
+[2026-10-05 10:37:54] Connection closed (recv error/EOF) from 127.0.0.1:50166
+[2026-10-05 10:37:54] Connection closed from 127.0.0.1:50166
+[2026-10-05 10:37:56] Connection opened from 127.0.0.1:60968
+[2026-10-05 10:37:56] CMD from 127.0.0.1:60968 : AUTH OPS-0382
+[2026-10-05 10:37:56] AUTH success from 127.0.0.1:60968
+[2026-10-05 10:38:25] CMD from 127.0.0.1:60968 : PUT test_upload.txt 60
+[2026-10-05 10:38:25] PUT test_upload.txt (60 bytes) stored
+[2026-10-05 10:42:16] CMD from 127.0.0.1:60968 : GET test_upload.txt
+[2026-10-05 10:42:16] GET test_upload.txt (60 bytes) sent
+[2026-10-05 10:45:07] CMD from 127.0.0.1:60968 : GET doesnotexist.txt
+[2026-10-05 10:45:07] GET doesnotexist.txt -> not found
+[2026-10-05 10:46:17] CMD from 127.0.0.1:60968 : MONITOR START 9999
+[2026-10-05 10:46:17] MONITOR start -> 127.0.0.1:9999 every 2s
+[2026-10-05 10:47:23] Connection closed (recv error/EOF) from 127.0.0.1:60968
+[2026-10-05 10:47:23] Connection closed from 127.0.0.1:60968
+[2026-10-05 10:47:23] MONITOR stop -> 127.0.0.1:9999
+[2026-10-05 10:48:48] Connection opened from 127.0.0.1:38518
+[2026-10-05 10:48:48] CMD from 127.0.0.1:38518 : AUTH OPS-0382
+[2026-10-05 10:48:48] AUTH success from 127.0.0.1:38518
+[2026-10-05 10:48:54] CMD from 127.0.0.1:38518 : MONITOR STOP
+[2026-10-05 10:50:21] Connection opened from 127.0.0.1:37748
+[2026-10-05 10:50:21] CMD from 127.0.0.1:37748 : AUTH WRONG-TOKEN
+[2026-10-05 10:50:21] AUTH failure from 127.0.0.1:37748
+[2026-10-05 10:50:21] CMD from 127.0.0.1:37748 : SYSINFO
+[2026-10-05 10:50:21] Unauthenticated command rejected: SYSINFO
+[2026-10-05 10:50:21] CMD from 127.0.0.1:37748 : QUIT
+[2026-10-05 10:50:21] Unauthenticated command rejected: QUIT
+[2026-10-05 10:50:21] Connection closed (recv error/EOF) from 127.0.0.1:37748
+[2026-10-05 10:50:21] Connection closed from 127.0.0.1:37748
+[2026-10-05 10:52:14] Connection opened from 127.0.0.1:51578
+[2026-10-05 10:52:14] CMD from 127.0.0.1:51578 : AUTH OPS-0382
+[2026-10-05 10:52:14] AUTH success from 127.0.0.1:51578
+[2026-10-05 10:52:14] CMD from 127.0.0.1:51578 : EXEC rm -rf /
+[2026-10-05 10:52:14] EXEC rm rejected (not whitelisted)
+[2026-10-05 10:52:14] CMD from 127.0.0.1:51578 : EXEC cat /etc/passwd
+[2026-10-05 10:52:14] EXEC cat rejected (not whitelisted)
+[2026-10-05 10:52:14] CMD from 127.0.0.1:51578 : EXEC ls
+[2026-10-05 10:52:14] EXEC ls rejected (not whitelisted)
+[2026-10-05 10:52:14] CMD from 127.0.0.1:51578 : QUIT
+[2026-10-05 10:52:14] QUIT from 127.0.0.1:51578
+[2026-10-05 10:52:14] Connection closed from 127.0.0.1:51578
+[2026-10-05 10:53:43] Connection opened from 127.0.0.1:35350
+[2026-10-05 10:53:43] CMD from 127.0.0.1:35350 : AUTH OPS-0382
+[2026-10-05 10:53:43] AUTH success from 127.0.0.1:35350
+[2026-10-05 10:53:56] Connection closed (recv error/EOF) from 127.0.0.1:35350
+[2026-10-05 10:53:56] Connection closed from 127.0.0.1:35350
+[2026-10-05 10:54:34] Connection opened from 127.0.0.1:43542
+[2026-10-05 10:54:34] CMD from 127.0.0.1:43542 : AUTH OPS-0382
+[2026-10-05 10:54:34] AUTH success from 127.0.0.1:43542
+[2026-10-05 11:23:03] Connection closed (recv error/EOF) from 127.0.0.1:43542
+[2026-10-05 11:23:03] Connection closed from 127.0.0.1:43542
+[2026-10-05 11:26:07] === Agent starting on port 9420 ===
+[2026-10-05 11:26:15] Connection closed (recv error/EOF) from 127.0.0.1:38518
+[2026-10-05 11:26:15] Connection closed from 127.0.0.1:38518
+[2026-10-05 11:26:16] Connection opened from 127.0.0.1:40972
+[2026-10-05 11:26:16] CMD from 127.0.0.1:40972 : AUTH OPS-0382
+[2026-10-05 11:26:16] AUTH success from 127.0.0.1:40972
+[2026-10-05 11:28:23] === Agent starting on port 9420 ===
