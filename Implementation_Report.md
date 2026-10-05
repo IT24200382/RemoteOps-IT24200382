@@ -1,3 +1,80 @@
+---
+title: "IE3090 Network Programming — Assignment Part 1"
+---
+
+<div style="page-break-after: always; text-align: center; padding-top: 100px;">
+
+<br><br><br>
+
+# IE3090 Network Programming
+
+## 3rd Year, Semester I
+
+<br>
+
+# Assignment Report
+
+### RemoteOps: A Remote System Monitoring and Management Tool over TCP/IP
+
+<br><br><br>
+
+**Submitted to**
+
+**Sri Lanka Institute of Information Technology**
+
+<br>
+
+**In partial fulfillment of the requirements for the**
+
+**Bachelor of Science Special Honors Degree in Information Technology**
+
+<br><br><br>
+
+**5th October 2026**
+
+</div>
+
+<div style="page-break-after: always;">
+
+## Declaration
+
+I certify that this report does not incorporate without acknowledgement, any material previously submitted for a degree or diploma in any university, and to the best of my knowledge and belief it does not contain any material previously published or written by another person, except where due reference is made in text.
+
+<br><br>
+
+| | |
+|---|---|
+| **Registration Number** | IT24200382 |
+| **Name** | Wickramasinghe W.M.H.N. |
+| **Signature** | ______________________________ |
+| **Date** | 5th October 2026 |
+
+<br><br>
+
+---
+
+**AI Use Declaration (CLEAR Level 3):** In accordance with §3 of the assignment brief, I used AI tools during Part 1 of this assignment. All substantive interactions are recorded in the accompanying `prompt_log.md`. All code was critically reviewed, tested, and modified by me before inclusion. The Lab Assessment and Viva will be completed without AI assistance.
+
+</div>
+
+<div style="page-break-after: always;">
+
+## Table of Contents
+
+1. Personalisation
+2. Architecture Overview
+3. Protocol Implementation
+4. Annotated Code Screenshots
+5. Execution and Testing Evidence
+6. Personalisation Proof
+7. Testing Summary
+8. Design Rationale and Assumptions
+9. Repository
+10. Summary
+
+</div>
+
+---
 # Implementation Report — RemoteOps
 
 **Module:** IE3090 Network Programming (Year 3, Semester 1)
